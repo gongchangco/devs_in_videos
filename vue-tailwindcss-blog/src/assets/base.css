@@ -1,3 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+
+    html {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .container {
+        max-width: 600px !important;
+    }
+
+    header {
+        @apply text-center my-8;
+    }
+
+    header h1 {
+        @apply text-blue-300 text-6xl font-bold mb-4 cursor-pointer;
+    }
+
+    header p {
+        @apply text-xl text-slate-500;
+    }
+
+    main {
+        @apply mx-auto;
+    }
+    main div {
+        @apply border border-slate-700 mb-4 p-4 rounded-lg cursor-pointer;
+    }
+    
+    main h1 {
+        @apply text-slate-900 text-3xl font-bold mb-4;
+    }
+
+    main p {
+        @apply text-xl text-slate-500;
+    }
+
+    .Post {
+        @apply text-center container mx-auto;
+    }
+
+    .Post h1 {
+        @apply text-slate-900 text-3xl font-bold mb-4;
+    }
+
+    .Post p:nth-child(2) {
+        @apply text-base text-slate-300;
+    }
+
+    .Post p:nth-child(3) {
+        @apply text-xl text-slate-500;
+    }
+}

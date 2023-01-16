@@ -2,6 +2,10 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+This is based from video :
+* [Create a blog with Vue, TailwindCSS and Supabase - Part 1](https://youtube.com/watch?v=0NB9lgFcOT4) and
+* [Create a blog with Vue, TailwindCSS and Supabase - Part 2](https://youtube.com/watch?v=UP2mHUpcv6g)
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
