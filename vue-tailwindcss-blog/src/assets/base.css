@@ -30,7 +30,7 @@
     main {
         @apply mx-auto;
     }
-    main div {
+    main .PostItem {
         @apply border border-slate-700 mb-4 p-4 rounded-lg cursor-pointer;
     }
     
