@@ -2,15 +2,16 @@ import styles from "../styles/BlogCard.module.css"
 import Link from "next/Link"
 import Image from "next/image"
 
-
-
 function BlogPost({ title, author, coverPhoto, datePublished, slug }) {
     return(
         <div className={styles.card}>
             <Link href={`/posts/${slug}`}>
                 <div className={styles.imgContainer}>
-                    <Image fill />
-                    
+                    <Image 
+                        fill
+                        src={coverPhoto.url}
+                        alt=""
+                    />
                 </div>
             </Link>
             <div className={styles.text}>
