@@ -8,7 +8,7 @@
 
         let { data: posts, error } = await supabase
         .from('posts')
-        .select
+        .select()
 
         if (error) throw new Error(error)
 
